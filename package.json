@@ -1,0 +1,22 @@
+{
+  "name": "ispscan",
+  "version": "1.0.0",
+  "description": "A small tool that will scan for default router ports that might help you find ISP ( Internet Service Provider ) Accounts.",
+  "main": "scan.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "scan",
+    "tool",
+    "router",
+    "isp",
+    "accounts",
+    "evilscan"
+  ],
+  "author": "Schiriac Robert",
+  "license": "ISC",
+  "dependencies": {
+    "evilscan": "^1.0.2"
+  }
+}
