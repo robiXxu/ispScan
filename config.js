@@ -7,8 +7,7 @@ module.exports = {
     target: targets,
     port: ports,
     status: 'O',
-    banner: false,
-    concurrency:99999
+    banner: false
   },
 
   file:{
