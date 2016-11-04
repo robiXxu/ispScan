@@ -11,7 +11,6 @@ scanner.on('result', (data) => {
   if(data.status === 'open'){
     var line = 'http://' + data.ip + ':' + data.port + '/' + '\n';
     output(line);
-    console.log``(line);
   }
 });
 
